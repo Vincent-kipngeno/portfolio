@@ -1,10 +1,12 @@
 .heading{
-  background-image: url("./backgroundImages/h_img.jpg");
+  background: url("../Images/background1.jpg") rgba(0, 0, 0, 0.5);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   text-align: center;
   color: white;
-  padding-top: 30vh;
+  background-blend-mode: multiply;
+  padding-top: 50%;
+  padding-bottom: 50%;
 }
