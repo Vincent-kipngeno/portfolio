@@ -1,5 +1,5 @@
 .heading{
-  background: url("../Images/background1.jpg") rgba(0, 0, 0, 0.5);
+  background: url("../images/background1.jpg") rgba(0, 0, 0, 0.5);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,6 +7,28 @@
   text-align: center;
   color: white;
   background-blend-mode: multiply;
-  padding-top: 50%;
-  padding-bottom: 50%;
+  padding-top: 50vh;
+}
+
+nav {
+  margin: auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(102, 51, 153, 0.5), rgba(0, 0, 0, 0.5), rgba(140, 20, 252, 0.5)) ;
+}
+
+.btn {
+  display: inline-block;
+  color: #008000;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.5em;
+  overflow: hidden;
+}
+.btn a {
+  text-decoration: none;
+}
+.btn:hover {
+  color: #111;
+  background: #39ff14;
+  box-shadow: 0 0 50px #39ff14;
 }
