@@ -1,65 +1,51 @@
-.heading{
-  background: url("../images/background1.jpg") rgba(0, 0, 0, 0.5);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  text-align: center;
-  color: white;
-  background-blend-mode: multiply;
-  padding-top: 50vh;
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/*===== VARIABLES CSS =====*/
+:root{
+  --header-height: 3rem;
+  --font-semi: 600;
 }
 
-nav {
-  margin: auto;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(102, 51, 153, 0.5), rgba(0, 0, 0, 0.5), rgba(140, 20, 252, 0.5)) ;
-}
-.card-about {
-  background-color: #ffffff;
-  box-shadow: 0 0 10px #39ff14;
-  margin: 20px;
-}
-.image img {
-  width: 200px;
-  height: 200px;
-  margin: 8px;
-  margin-right: 50px
-}
-.about-words {
-  float: right;
-  padding: 20px;
-  margin-left: 50px;
-}
-.btn {
-  display: inline-block;
-  color: #008000;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 1.5em;
-  overflow: hidden;
-}
-.btn a {
-  text-decoration: none;
-}
-.btn:hover {
-  color: #111;
-  background: #39ff14;
-  box-shadow: 0 0 50px #39ff14;
-}
-.portfolio{
-  text-align: center;
-}
-.col-md-3 img{
-  max-width: 40%;
-  max-height: 40%;
-  margin-bottom: 20px;
-  position: relative;
+/*===== Colores =====*/
+:root{
+  --first-color: #4070F4;
+  --second-color: #0E2431;
 }
 
-.col-md-2 img{
-  max-width: 50%;
-  max-height: 50%;
-  margin-bottom: 20px;
-  position: relative;
+/*===== Fuente y tipografia =====*/
+:root{
+  --body-font: 'Poppins', sans-serif;
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+}
+@media screen and (min-width: 768px){
+  :root{
+    --big-font-size: 3.5rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*===== Margenes =====*/
+:root{
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+
+/*===== z index =====*/
+:root{
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*===== BASE =====*/
+*,::before,::after{
+  box-sizing: border-box;
 }
